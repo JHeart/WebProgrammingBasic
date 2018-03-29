@@ -44,14 +44,15 @@ li{
 hr{
     background-color:#c82333;
 }
-.body_image{
-    background-size: cover;
-    background-image: url("http://www.japanexplorer.com.au/wp-content/uploads/2015/07/flag-and-map-of-Japan.png");
 
-}
 .main_title{
     margin-top: 50px;
     text-align: center;/*vertical-align*/
     font-size: 30px;
     font-family: "Times New Roman", Arial, sans-serif;
+}
+.main_image{
+    background-size: 100%;
+    background-image: url("http://www.japanexplorer.com.au/wp-content/uploads/2015/07/flag-and-map-of-Japan.png");
+
 }
