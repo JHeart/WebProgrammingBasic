@@ -6,6 +6,9 @@ body{
     background-color: #ffffff;
 
 }
+.blank{
+    height: 50px
+}
 
 a{
     text-decoration: none;
@@ -19,11 +22,12 @@ ul{
 }
 
 li{
-   display:inline;
+    display:inline;
     padding: 0 5px;
 }
 .bg-dark {/*menu background-color*/
     background-color: #4e555b;
+    height: 50px
 }
 .fixed-top {/*menu fixed-location*/
     position: fixed;
@@ -44,4 +48,10 @@ hr{
     background-size: cover;
     background-image: url("http://www.japanexplorer.com.au/wp-content/uploads/2015/07/flag-and-map-of-Japan.png");
 
+}
+.main_title{
+    margin-top: 50px;
+    text-align: center;/*vertical-align*/
+    font-size: 30px;
+    font-family: "Times New Roman", Arial, sans-serif;
 }
