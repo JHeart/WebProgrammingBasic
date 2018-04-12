@@ -4,7 +4,7 @@ body{
     font-weight: 600;
     text-align: left;
     line-height: 1.5;
-    background-color: #ffffff;
+    background-color: #eaebe9;
     color: #5a5a5a;
 
 }
@@ -14,7 +14,11 @@ div {
 }
 
 .blank{
-    height:  120px
+    height:  10px
+}
+
+.blank2{
+    height:  80px
 }
 .bg-dark .nav-position #menu1 a{
    font-weight: bold;
@@ -48,7 +52,7 @@ li{
 }
 .bg-dark {/*menu background-color*/
     background-color: #e4606d;
-    height: 70px
+    height: 60px
 }
 .fixed-top {/*menu fixed-location*/
     position: fixed;
@@ -65,10 +69,31 @@ li{
 hr{
     background-color:#5a5a5a;
 }
-.main{
+/*.main{
     margin-left: 70px;
     margin-right: 70px;
+}*/
+.title2{
+    position: relative;
+    margin: 0px 0px;
+    /*margin-top: 50px;*/
+    /*text-align: center;!*vertical-align*!*/
+    /*width:100%;이거 사용하니 margin사용안됨*/
+    height:400px;
+    position: relative;
+    left:0;
+    right:0;
+    background-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+
 }
+.title2 h1{
+    padding-top: 100px;
+
+}
+
+
 body .title{
     position: relative;
     margin: 8px 150px;
