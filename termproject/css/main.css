@@ -83,15 +83,30 @@ hr{
     position: relative;
     left:0;
     right:0;
-    background-color: #ffffff;
-    text-align: center;
+   background-color: #ffffff;
+    background-image: url("https://www.visakorea.com/dam/VCOM/regional/ap/Marquees/marquee-destinations-tokyo-1600x900.jpg");
+    background-repeat: round;
+    /*text-align: center;*/
     vertical-align: middle;
+    -webkit-filter: grayscale(60%); /* Chrome, Safari, Opera */
+    filter: grayscale(60%);
 
 }
 .title2 h1{
     padding-top: 100px;
-
+    padding-left: 70px;
+    color: #ffffff;
+    text-shadow: #000 0px 0px 1px;
+    font-size: 35px;
 }
+.title2 h2{
+    color: #ffffff;
+    padding-left: 70px;
+    text-shadow: #000 0px 0px 1px;
+    font-size: 35px;
+}
+
+
 
 
 body .title{
@@ -175,6 +190,7 @@ main .row .col-md-7 h2 {
 }
 
 .text-muted {
+    font-size: 25px;
     color: #6c757d!important;
 }
 
