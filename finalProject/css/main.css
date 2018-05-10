@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+body{
+    background-color: #f1cdc7;
+    font-size: 1.5em;
+    margin:50px 100px;
+    color: #ffffff;
+    font-family: Arial Serif;
+    font-weight: bold;
+
+}
+#title{
+    text-align: center;
+    font-family: Arial Serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    /*color: ;*/
+
+}
+hr{
+    margin-top: 1em;
+    height: 0.2em;
+   /* border-color: #ffffff;*/
+    background-color: #ffffff;
+    width: 1em;
+    border-style: none;
+}
+
+main{
+    position: relative;
+    mso-border-shadow: yes;
+    background-size: cover;
+    background-color: #f4e5e2;
+    color: #5e5e5e;
+
+}
+ul{
+    list-style: none;
+
+}
+li{
+    display: inline-block;
+    padding-left: 0.25em;
+}
+#main_title{
+    margin-top: 1em;
+    letter-spacing: 0.15em;
+    text-align: center;
+    color: #e69a8f;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 4em;
+}
+#content{
+    text-align: center;
+    max-width: 20em;
+    color: #1a5f85;
+}
+
