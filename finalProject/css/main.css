@@ -85,3 +85,41 @@ li{
     justify-content: center;
     align-items: center;
 }
+.img_1{
+    position: absolute;
+    left: 48em;
+    top: 22em;
+    z-index: -1;
+}
+.img_2{
+    width: 7em;
+    height: 9em;
+    position: absolute;
+    left: 10em;
+    top: 23.5em;
+    z-index: -1;
+    filter: grayscale(100%);
+}
+
+.img_4{
+    width: 8em;
+    height: 11em;
+    position: absolute;
+    left: 5em;
+    top: 15em;
+
+    z-index: -1;
+}
+.img_brown{
+  /*  width: 10em;
+    height: 1.8em;*/
+    z-index: -1;
+    border-radius: 0.3em;
+    opacity: 0.8;
+    filter: grayscale(100%);
+    clip: rect(10px,10px,10px,10px);
+}
+.absoulute{
+    position: absolute;
+    left: 15em;
+}
