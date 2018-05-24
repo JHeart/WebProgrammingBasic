@@ -111,8 +111,8 @@ li{
     z-index: -1;
 }
 .img_brown{
-  /*  width: 10em;
-    height: 1.8em;*/
+    width: 10em;
+    height: 3em;
     z-index: -1;
     border-radius: 0.3em;
     opacity: 0.8;
@@ -122,4 +122,10 @@ li{
 .absoulute{
     position: absolute;
     left: 15em;
+}
+.menu{
+    font-size: 30px;
+    left: 45em;
+    top: 1.8em;
+    position: absolute;
 }
