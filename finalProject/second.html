@@ -5,27 +5,44 @@
     <link href="css/second.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <script src="js/clock.js"></script>
+    <script src="js/main.js"></script>
     <title>Title</title>
 </head>
 <body onload="startTime()">
 <main>
     <div class="menu_bar_background">
         <ul class="menu_bar">
+            <li><i class="far fa-clock"></i></li>
+            <li id="txt"></li>
             <li style="font-size: 1em"><a href="index.html"><i class="far fa-arrow-alt-circle-left"></i></a></li>
             <li>HOME</li>
             <li>ABOUT</li>
             <li>Services</li>
             <li>Portfolio</li>
             <li>Blog</li>
-            <li><div class="search_background">Search the Website<i class="fas fa-search"></i></div></li>
+
+            <!--<li><div class="search_background">Search the Website<i class="fas fa-search"></i></div></li>-->
         </ul>
     </div>
 
-    <div id="txt"></div>
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
 
-    <div class="weather_forecast">
-
+    <iframe src="https://www.meteoblue.com/en/weather/widget/three/seoul_republic-of-korea_1835848?geoloc=fixed&nocurrent=0&noforecast=0&days=4&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&layout=image"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 460px;height: 589px"></iframe>
+    <div class="weather_forecast"><!-- DO NOT REMOVE THIS LINK -->
+        <a href="https://www.meteoblue.com/en/weather/forecast/week/seoul_republic-of-korea_1835848?utm_source=weather_widget&utm_medium=linkus&utm_content=three&utm_campaign=Weather%2BWidget" target="_blank">
+        </a>
     </div>
+
+
+    <div id="player"></div>
+    <div id="youtube_control">
+        <button class="btn btn-6 btn-6d" onclick="playVideo()">PLAY</button>
+        <button class="btn btn-6 btn-6d" onclick="pauseVideo()">PAUSE</button>
+        <button class="btn btn-6 btn-6d" onclick="stopVideo()">STOP</button>
+    </div>
+
+
+
 
 </main>
 </body>

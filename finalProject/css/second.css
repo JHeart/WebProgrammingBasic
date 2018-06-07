@@ -1,5 +1,5 @@
 body{
-    background-color: #f1cdc7;
+    background-color: #1a5f85;
     font-size: 1.5em;
     margin:50px 100px;
     color: #ffffff;
@@ -13,12 +13,15 @@ a{
     color: #ffffff;
 }
 ul{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
     list-style: none;
 
 }
 li{
     display: inline-block;
-    padding-left: 0.5em;
+    padding-left: 1.5em;
 }
 .menu_bar{
 
@@ -32,4 +35,26 @@ li{
     width: 15em;
     height: 2.5em;
     background-color: #5e5e5e;
+}
+#player{
+    position: absolute;
+    left: 33em;
+    top: 10em;
+}
+/* Button 6d */
+.btn{
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+.btn-6d {
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #1a5f85;
+}
+
+.btn-6d:hover {
+    background: transparent;
+    color: #226fbe;
 }
