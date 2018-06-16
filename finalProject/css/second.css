@@ -37,24 +37,41 @@ li{
     background-color: #5e5e5e;
 }
 #player{
-    position: absolute;
-    left: 33em;
-    top: 10em;
+    position: relative;
+    top: -7.5em;
+    left: 24em;
+
 }
 /* Button 6d */
 .btn{
     border: none;
-    color: white;
-    text-decoration: none;
+
+    font-size: 1.3em;
 }
 .btn-6d {
     color: white;
     display: inline-block;
     cursor: pointer;
-    background-color: #1a5f85;
+    background-color: #ecc954;
 }
 
 .btn-6d:hover {
     background: transparent;
     color: #226fbe;
+}
+.weather{
+   position: relative;
+    top: 2em;
+}
+#youtube_control{
+    width: 10em;
+    background-color: #ecc954;
+    position: relative;
+    left: -3.3em;
+    top: -5em;
+}
+#mycalendar{
+
+    position: relative;
+    top: 3em;
 }

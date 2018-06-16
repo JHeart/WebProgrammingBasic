@@ -14,6 +14,7 @@ function onYouTubeIframeAPIReady() {
         width: '640',
         videoId: 'YePv_UGX3-k',
         events: {
+            'loadPlaylist': onloadPlaylist,
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
         }
@@ -24,7 +25,10 @@ function onYouTubeIframeAPIReady() {
 function onPlayerReady(event) {
     event.target.playVideo();
 }
+function onloadPlaylist(){
+    player.loadPlaylist("RDYePv_UGX3-k");
 
+}
 // 5. The API calls this function when the player's state changes.
 //    The function indicates that when playing a video (state=1),
 //    the player should play for six seconds and then stop.

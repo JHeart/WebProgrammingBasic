@@ -124,6 +124,7 @@ li{
     clip: rect(10px,10px,10px,10px);
 }
 .absoulute{
+
     position: absolute;
     left: 15em;
 }
@@ -132,4 +133,7 @@ li{
     left: 45em;
     top: 1.8em;
     position: absolute;
+}
+.center_div{
+    margin: 0 auto;
 }
