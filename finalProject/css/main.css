@@ -90,17 +90,17 @@ li{
     align-items: center;
 }
 .img_1{
-    position: absolute;
-    left: 48em;
-    top: 22em;
+    position: relative;
+    left: 55em;
+    top: -15em;
     z-index: -1;
 }
 .img_2{
     width: 7em;
     height: 9em;
-    position: absolute;
-    left: 10em;
-    top: 23.5em;
+    position: relative;
+    left: -7em;
+    top: -15em;
     z-index: -1;
     filter: grayscale(100%);
 }
@@ -115,6 +115,7 @@ li{
     z-index: -1;
 }
 .img_brown{
+    position: relative;
     width: 10em;
     height: 3em;
     z-index: -1;
@@ -131,9 +132,10 @@ li{
 .menu{
     font-size: 30px;
     left: 45em;
-    top: 1.8em;
-    position: absolute;
+    top: -1em;
+    position: relative;
 }
+/*
 .center_div{
     margin: 0 auto;
-}
+}*/

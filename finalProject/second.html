@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,9 +15,10 @@
             <li><i class="far fa-clock"></i></li>
             <li id="txt"></li>
             <li style="font-size: 1em"><a href="index.html"><i class="far fa-arrow-alt-circle-left"></i></a></li>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>Services</li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="third.html" >ABOUT</a></li>
+            <li><a href="fourth.html" >Park Hyo Shin</a></li>
+           <!-- <li>Services</li>-->
 
             <!--<li><div class="search_background">Search the Website<i class="fas fa-search"></i></div></li>-->
         </ul>
@@ -34,11 +35,45 @@
 
     </span>
 
-    <span id="player"></span>
-    <span id="youtube_control">
-        <button class="btn  btn-6d" onclick="playVideo()"><i class="far fa-play-circle"></i></button>
-        <button class="btn  btn-6d" onclick="pauseVideo()"><i class="far fa-pause-circle"></i></button>
-        <button class="btn  btn-6d" onclick="stopVideo()"><i class="far fa-stop-circle"></i></button>
+    <span class="singer">
+        <table style="padding-left: 10px">
+
+            <tr>
+                <td width="150px">&nbsp;</td> <td><img src="./image/209338.jpg" alt="양다일" height="200" width="150"></td>
+            </tr>
+              <tr style="text-align:center">
+                <td >가수</td><td>양다일</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr style="text-align:center; padding-top: 10px">
+                <td>노래</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr class="sing1" style="text-align:center; cursor: -webkit-grab; cursor: grab;"  onclick=" href="https://www.youtube.com/watch?v=1icPJAhI2TA&list=RD1icPJAhI2TA" target="_blank">" >
+                <a href="https://www.youtube.com/watch?v=1icPJAhI2TA&list=RD1icPJAhI2TA" target="_blank">
+                <td width="150px">미안해</td><td>inside &middot; 2017년</td>
+                <td>
+                    <g-img  style="height:50px;width:101px"><img id="dimg_25" src="data:image/jpeg;base64,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"  height="76" style="margin-top:-10px" width="101" alt=""></g-img>
+                </td>
+                    </a>
+            </tr>
+            <tr class="sing1" style="text-align:center; cursor: -webkit-grab; cursor: grab;"  onclick="onYouTubeIframeAPIReady()" >
+                <td idth="300px">너를 잊으면</td><td>inside &middot; 2017년</td>
+                <td>
+                    <div class="jKDyEf"><g-img class="gTVkce BA0A6c" style="height: 56px; width: 101px;"><img id="dimg_9" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAEwAZQMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAwQFBgcCAQj/xAA7EAABAwIEAgUJBQkAAAAAAAABAAIDBBEFEhMhBjEUQVFhkQciMlVicYGSsRYjUoKhFSVCY5PB0dLh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAHBEBAQADAQEBAQAAAAAAAAAAAAECETEhEkED/9oADAMBAAIRAxEAPwDDUK/02C01VIIqbDRNKRcMjiLibc9grNS8HwmFhfw7Je296R1/ogxpC1zGeHYqSnIpuFJ5pXfgoZHW8Aqm7hvEy4n7NYkAT6vl/wBVZEtU9C0XAOGqk1bWVnDFYY3fxSUEgt4tVmn4Vw2nANRgccQdyMkBbf3XSzRPWKIWynAMEyn92Uv9NIfsHBvVtN8gUa0yFC179g4N6tpvkSsGAYKS6+GUp2/AhpjiFtA4ewOw/ddL8i9+z2B+qqX5ERiyFtP2ewP1VS/IhBE8L19VQYtFPRTGKdocA/KHWBG+xBC3nCK2apoYp55b5omvJIA5gFfP+BwzNxVvmEgNcTYX2tutQrsOPEPARpGVM8Ia0F4g3MjWn0T3WVJ3S9wVkVSCaeoilDeZjeHW8ElUVEzJbNksLdgWYeSyCDh7E6+mkmqi+aJl4JI7abmkkk8rCxaB181pczmylr2m4LVmZY5cb+bj5lC8U076cuBLnh46hyuL/pdU7j2aQ4NhElRcSuuX5hY3yi+3Urph4+7+J/sqP5YH6dFhh/mv+gTjP6pmrcJHVSNKBIyNxqYRnvdpduwC5ufBODRsAiPTqe8jHO9L0bW2Pv6lV451UpBL6SSqKdkUD5WVkMuU2ysO55cvFNoZt3IlSYl2C91VHibZe6yIf6qEw1kIFOACxvE0Gq4Zcj+Zt/CVqsNRT07S2Awx3NyGOHPrNgvnmoxCehhdPS1EsEo2D43FrgDz3CUhq8ZqKMvmxerjiqWFvnyvOZt9xuQP1vb3q7qz5nW8zVcEmtLdpeWkF+Wxt9e3wKcx1GhCM7rhuzjcCw7d+pYZw5iA4UnqaiWphmbNG1ha8+dlvcgNDibnlfl704ouN4q2GvwyrpY4aStabyNN3MfzDz22Nj8EywvlMf647sb7gFbFWUsskEzJmslczMw3FwB/lUbyxTmTCMIkdYF0z+XuS/kJnkn4LfLP6XTJfgMrEz8tsjBhGDGM+YZngH8oWZwvWeUz6V8Y1Kp0b+saWYfVLZ6S+1Q8/k9//PFRsGJzU7Gxx6WUCwzRtJ6+u3em76g7u6ybmyRUy59NZ33z/Z83mkqee991GCe4XtLNu8d6ImBNtzXmsO39UwE2yRbL978VUS2t3oUfrIQV+apBZtI0kEEX7QnVLjFRZ3Sa+ndmbYatPqOaO51rj4HdVu6LqWbal0lp3tlmbIKqM5DcaTMgbvz5c1zTSUmu0VFQdMuu52QlRmYkW6kJd3tJZORvnk+4+4M4fwToM2KujeZnPy9EmN7hvYzuUR5WOLMCx/DcNgwKsdUOp5nueDBIzKCNvSaLrHIzaRp7CngqszrW27VccdRm3d2ePrLOsAlhMcl+uyiDUAE9aViqhyKaW0q+vkOws33JxhsxOpc3URUnLIew7hOcMksZN1NCcEq4Enn3TQS96BJvzVQ+1UJjq969QVzMUB5HYuUIFNV3d4I1n9qTQg7MrivdVyTQg6zleh7guEIFHSucAD1LqKofFfJbfuSKEDrp03s+COnTez4JqhA66dN7PghNUIP/2Q==" jscontroller="XFHqe" jsaction="load:K1e2pe" class="rISBZc M4dUYb" height="76" style="margin-top: -10px; opacity: 1;" width="101" alt=""></g-img></div>
+                </td>
+            </tr>
+            <tr class="sing1" style="text-align:center; cursor: -webkit-grab; cursor: grab;"  onclick="onYouTubeIframeAPIReady()" >
+                <td idth="300px">널</td><td>inside &middot; 2017년</td>
+                <td>
+                    <div class="jKDyEf"><g-img class="gTVkce BA0A6c" style="height: 56px; width: 101px;"><img id="dimg_21" src="data:image/jpeg;base64,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" jscontroller="XFHqe" jsaction="load:K1e2pe" class="rISBZc M4dUYb" height="76" style="margin-top: -10px; opacity: 1;" width="101" alt=""></g-img></div>
+                </td>
+            </tr>
+        </table>
     </span>
 
 
@@ -69,17 +104,17 @@
 
             var TR_start = '<TR>';
             var TR_end = '</TR>';
-            var highlight_start = '<TD WIDTH="30"><TABLE CELLSPACING=0 BORDER=1 BGCOLOR=ea734d BORDERCOLOR=ea734d><TR><TD WIDTH=20><B><CENTER>';
+            var highlight_start = '<TD WIDTH="30"><TABLE CELLSPACING=2 BORDER=0 BGCOLOR=ecc954 BORDERCOLOR=ea734d><TR><TD WIDTH=40><B><CENTER>';
             var highlight_end   = '</CENTER></TD></TR></TABLE></B>';
-            var TD_start = '<TD WIDTH="30"><CENTER>';
+            var TD_start = '<TD WIDTH="50" height="50"><CENTER>';
             var TD_end = '</CENTER></TD>';
 
             /* BEGIN CODE FOR CALENDAR
             NOTE: You can format the 'BORDER', 'BGCOLOR', 'CELLPADDING', 'BORDERCOLOR'
             tags to customize your calendar's look.*/
 
-            cal =  '<TABLE BORDER=1 CELLSPACING=0 CELLPADDING=0 BORDERCOLOR=ea734d><TR><TD>';
-            cal += '<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=2>' + TR_start;
+            cal =  '<TABLE BORDER=1 CELLSPACING=2 CELLPADDING=0 BORDERCOLOR=ea734d BGCOLOR="ea734d"><TR><TD>';
+            cal += '<TABLE BORDER=0 CELLSPACING=2 CELLPADDING=3>' + TR_start;
             cal += '<TD COLSPAN="' + DAYS_OF_WEEK + '" BGCOLOR="#ea734d"><CENTER><B>';
             cal += month_of_year[month]  + '   ' + year + '</B>' + TD_end + TR_end;
             cal += TR_start;
@@ -150,10 +185,23 @@
 
             //  End -->
         </script>
+         <span id="youtube_control">
+        <button class="btn  btn-6d" onclick="playVideo()"><i class="far fa-play-circle"></i></button>
+        <button class="btn  btn-6d" onclick="pauseVideo()"><i class="far fa-pause-circle"></i></button>
+        <button class="btn  btn-6d" onclick="stopVideo()"><i class="far fa-stop-circle"></i></button>
     </span>
+    </span>
+
+    <span id="player" style="width: calc(100% - 100px); height: 800px"></span>
+
 
 
 
 </main>
+<footer class="container">
+    <p class=""><a href="#">Back to top</a></p>
+    <p>이정현 &middot; 박장훈</p>
+    <p>&copy; 2018WebProgrammingBasicFinalProject, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+</footer>
 </body>
 </html>

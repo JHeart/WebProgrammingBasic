@@ -1,0 +1,34 @@
+body{
+    background-color: #1a5f85;
+    font-size: 1.5em;
+    margin:50px 100px;
+    color: #ffffff;
+    font-family: Arial Serif;
+    font-weight: bold;
+
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+ul{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    list-style: none;
+
+}
+.li_menu{
+    display: inline-block;
+    padding-left: 1.5em;
+}
+.menu_bar{
+
+}
+.menu_bar_background{
+    background-color: #00c4a7;
+    height: 3em;
+}
+ol{
+    list-style: none;
+}
